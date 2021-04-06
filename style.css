@@ -1,0 +1,32 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{background: #777777}
+.box
+{
+	width: 60%;
+	height: auto;
+	border: 1px solid #dadada;
+	padding: 20px 0;
+	margin: 40px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.box1
+{
+	margin: 20px;
+	flex-basis: 20%;
+	background: white;
+}
+.box1 img
+{
+	width: 100%;
+}
+.box1 p
+{
+	text-align: center;
+}
